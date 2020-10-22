@@ -186,12 +186,8 @@ const observer = new IntersectionObserver((entries,observer) => {
  * @description loop for each section to apply the IntersectionObserver constructor to each section
  */
 
- mySections.forEach(mySection => {
+ mySections.forEach(mySection => observer.observe(mySection));
 
-
-    observer.observe(mySection);
-
-});
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
