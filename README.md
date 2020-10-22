@@ -46,11 +46,21 @@
  * because of each of sections has id equals to the data-nav attribute of the refrenced anchor to it
  * inquire about the element thet has id eqauls to the data-section of clicked anchor in the case of clicking the anchor by addEventListenet method
  * in the case of clicking the anchor it will scrolled to the section that have that id
- * make the scroll be smooth an locate the section in the center by apply scrollItoView method to the chosen section
+ * make the scroll be smooth and locate the section in the center by apply scrollItoView method to the chosen section
  * ##scrollItoView method :
  ** has two parameters :
  **the first is about the behavior of the transfer between each two items (smooth)
  **the second is about the way of represented the selected item as in the first of the screen or in the center or in the end
  *[refrence to scroll function](https://www.youtube.com/watch?v=23JQzsz9BlY)
+  
+  ##scroll top button
+ * make constructor observorTwo
+ * @description InterSectionObserver constructor make loop to each entry and make if conditional case of not intersecting 
+ * @param {entries}
+ * @param {options variable}  // represented properties of the entry
+ * @returns in case of not intersecting of the entry to the view port 
+ * the display method of the (top button) will be block else it will gain  none  
+
+  
 
 
