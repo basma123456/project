@@ -41,6 +41,7 @@
  ## make IntersectionObserver constructor
 
  * it needs two parameters : the first is internal function , the second is options
+ 
  *first parameter* 
  
   call back function : it need two paramenters
