@@ -34,9 +34,9 @@
  # sections part
  ## declare options variable which is will used after that in the IntersectionObserver constructor
  
- * consists of root : null   mean that web server api will be the root
- * threshold : 0.3   mean that if 0.3 of the section onle will be shown in the screen it will gain the active state
- * rootMargin : "-150px 0px 0px 0px"  it considered to be an ordinary margin but to the the root 
+ * consists of `root : null`   mean that web server api will be the root
+ * `threshold : 0.3`   mean that if 0.3 of the section onle will be shown in the screen it will gain the active state
+ * `rootMargin : "-150px 0px 0px 0px"`  it considered to be an ordinary margin but to the the root 
  
  ## make IntersectionObserver constructor
 
