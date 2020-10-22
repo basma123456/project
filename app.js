@@ -210,7 +210,7 @@ links.forEach(link => {
 
 
 
-        link.addEventListener("click" , function(){
+        link.addEventListener("click" , () => {
 
             const sec = document.getElementById(link.getAttribute('data-section'));
 
