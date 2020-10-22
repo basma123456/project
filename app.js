@@ -136,7 +136,7 @@ const options = {
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-const observer = new IntersectionObserver(function(entries,observer){
+const observer = new IntersectionObserver((entries,observer) => {
 
     entries.forEach(entry => {
 
@@ -290,7 +290,7 @@ const optionsTwo = {
  */
 
 
-const observerTwo = new IntersectionObserver(function(entries,observerTwo){
+const observerTwo = new IntersectionObserver((entries,observerTwo) => {
 
     entries.forEach(entry => {
 
