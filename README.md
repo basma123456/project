@@ -15,7 +15,7 @@
  * create ul element for the nav part
 * ##first function related to the nav part
  * make function to loop over the sections 
- * create nav items which are <li> and <a> tags and appending them to the ul tag
+ * create nav items which are li and a tags and appending them to the ul tag
  * extracting data-nav attributes values from sections and give each of them to the textContent of the each of links in nav part
  * set data-section attribute for <a> and give to each value of the refrenced sections's id and that for the usage after that in the scrollIntoview Method
  * adding styles to anv items
@@ -33,7 +33,7 @@
  ** loop for each entry which maen loop for each section
  ** make if condition that state in the case of the section not intersect the visible screen we will remove the active class from it
  ** and in case of opposite to that condition or in the intersection or the active state it wiil gain the active class
- ** loop over each <a> in the nav and get the textContent of each <a>
+ ** loop over each a tag in the nav and get the textContent of each a tag
  ** get the data-nav attribute value of the intersecting visible section on the screen
  ** if the data-nav equal the textContet of each anchor then it is the active case then gain the anchor green background
  ** else give it navy background
