@@ -43,18 +43,18 @@
  * it needs two parameters : the first is internal function , the second is options
  *first parameter* 
  
-       * call back function : it need two paramenters
-       * first paramenetr will be (entries) which represent the sections 
-       * second parameter which is the the same constuctor it self
-       * loop for each entry which maen loop for each section
-       * make if condition that state in the case of the section not intersect the visible screen we will remove the active class from it
-       * and in case of opposite to that condition or in the intersection or the active state it wiil gain the active class
-       * loop over each a tag in the nav and get the textContent of each a tag
-       * get the data-nav attribute value of the intersecting visible section on the screen
-       * if the data-nav equal the textContet of each anchor then it is the active case then gain the anchor green background
-       * else give it navy background
- *second parameter* 
+ 1. call back function : it need two paramenters
+ 2. first paramenetr will be (entries) which represent the sections 
+ 3. second parameter which is the the same constuctor it self
+ 4. loop for each entry which maen loop for each section
+ 5. make if condition that state in the case of the section not intersect the visible screen we will remove the active class from it
+ 6. and in case of opposite to that condition or in the intersection or the active state it wiil gain the active class
+ 7. loop over each a tag in the nav and get the textContent of each a tag
+ 8. get the data-nav attribute value of the intersecting visible section on the screen
+ 9. if the data-nav equal the textContet of each anchor then it is the active case then gain the anchor green background
+ 10. else give it navy background
  
+ *second parameter* 
  * is options which is declared before the function
  * [refrence to IntersectionObserver constructor](https://www.youtube.com/watch?v=RxnV9Xcw914)
  * loop for each section to apply the IntersectionObserver constructor to each section
