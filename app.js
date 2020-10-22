@@ -270,7 +270,7 @@ const observerTwo = new IntersectionObserver(function(entries,observerTwo){
 
                 topBtn.addEventListener("click" , () => {
 
-                    firstSection.scrollIntoView({behavior:"smooth" , block:"start"});
+                    firstSection.scrollIntoView({behavior:"smooth" , block:"center"});
                 });
 
 
