@@ -226,12 +226,93 @@ links.forEach(link => {
 
 
 
+////////////////////////////////////////////////////////////////
+
+/**
+ * 
+ */
+
+
+const firstSection = document.getElementsByTagName('section')[0];
+
+const topBtn = document.getElementById('topBtn'); 
 
 
 
 
+const optionsTwo = {
+
+    root : null,
+    threshold : 0.1,
+    rootMargin : "-150px 0px 0px 0px"
+};
+
+
+/**
+ * constructor observorTwo
+ * @description InterSectionObserver constructor make loop to each entry 
+ * and make if conditional case of not intersecting 
+ * @param {entries}
+ * @param {options variable}  // represented properties of the entry
+ * @returns in case of not intersecting of the entry to the view port 
+ * the display method of the (top button) will be block else it will gain  none  
+ * 
+ */
+
+
+const observerTwo = new IntersectionObserver(function(entries,observerTwo){
+
+    entries.forEach(entry => {
+
+       if(!entry.isIntersecting){
+
+            topBtn.style.display = "block";
+
+                topBtn.addEventListener("click" , () => {
+
+                    firstSection.scrollIntoView({behavior:"smooth" , block:"start"});
+                });
+
+
+
+
+
+
+    
+            
+    
+
+
+
+        return;
+
+       }else{            
+        topBtn.style.display = "none";
+
+
+       }
+       //
+
+    });
+
+
+
+}, optionsTwo);
+
+
+
+observerTwo.observe(firstSection);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
 
 
 
