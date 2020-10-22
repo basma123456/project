@@ -2,6 +2,7 @@
 #Land Scape Project
 
 ##JavaScript file
+
 ##/////////////////// sections variables //////////////////
 
 
