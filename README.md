@@ -44,8 +44,8 @@
  *first parameter* 
  
   call back function : it need two paramenters
-   1. first paramenetr will be (entries) which represent the sections 
-   2. second parameter which is the the same constuctor it self
+   1. first *paramenetr of the callback function* will be (entries) which represent the sections 
+   2. second *parameter of the callback function* which is the the same constuctor it self
    3. loop for each entry which maen loop for each section
    4. make if condition that state in the case of the section not intersect the visible screen we will remove the active class from it
    5. and in case of opposite to that condition or in the intersection or the active state it wiil gain the active class
