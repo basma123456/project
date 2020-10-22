@@ -6,10 +6,11 @@
 
 
 
-##/////////////////// sections variables //////////////////
+##/////////////////// declare sections variables //////////////////
 
  * make variables of the sections part
-##//////////////////////  nav variables ////////////////////////////////
+ 
+##////////////////////// declare  nav variables ////////////////////////////////
 * make variables of the nav part
  * create ul element for the nav part
 * ##first function related to the nav part
