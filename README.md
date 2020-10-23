@@ -1,5 +1,5 @@
 
-# Land Scape Project
+# Landing page Project
 
 ## JavaScript file
 
